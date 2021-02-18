@@ -1,0 +1,43 @@
+.todo_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.todo_wrapper .container{
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 20px 4px rgba(0,0,0,0.2);
+    padding: 2rem;
+}
+.container h2{
+    color: royalblue;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    border-bottom: 2px solid royalblue;
+    margin-bottom: 20px;
+}
+.todo_inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.input_box{
+    width: 74%;
+    padding: 10px;
+}
+.add_button{
+    border: 1px solid black;
+    background-color: royalblue;
+    color: #fff;
+    padding: 10px 20px;
+}
+.list{
+    margin-left: 3rem;
+}
+.list li {
+   font-size: 1.5rem;
+}
